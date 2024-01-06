@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+  float d,s,t;
+  printf("Enter the value of s,t:");
+  scanf("%f%f",&s,&t);
+  d=s*t;
+  printf("Distance travelled by an object=%f \n",d);
+return 0;    
+}
+Output
+Enter the value of s,t:20 5
+Distance travelled by an object=100.000000 
