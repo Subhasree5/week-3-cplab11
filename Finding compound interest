@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+  float p,r,n,t;
+  double ci;
+  printf("Enter the value of p,r,n,t:");
+  scanf("%f%f%f%f",&p,&r,&n,&t);
+  ci=p*pow((1+(r/n)),n*t);
+  printf("Compound interest=%lf \n",ci);
+return 0;    
+}
+Output:
+Enter the value of p,r,n,t:20 10 10 2
+Compound interest=20971520.000000 
