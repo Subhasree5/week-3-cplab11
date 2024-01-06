@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+  double sr,x;
+  printf("Enter the value of x:");
+  scanf("%lf",&x);
+  sr=sqrt(x);
+  printf("Square root=%lf \n",sr);
+return 0;    
+}
+Output:
+Enter the value of x:4.5
+Square root=2.121320 
