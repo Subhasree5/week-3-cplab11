@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+  float a,b,c,s;
+  double ar;
+  printf("Enter the value of a,b,c:");
+  scanf("%f%f%f",&a,&b,&c);
+  s=(float) (a+b+c)/2;
+  ar=sqrt(s*(s-a)*(s-b)*(s-c));
+  printf("Area of triangle=%lf \n",ar);
+return 0;    
+}
+Output:
+Enter the value of a,b,c:3 4 5
+Area of triangle=6.000000 
